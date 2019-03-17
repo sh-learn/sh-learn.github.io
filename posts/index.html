@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Posts
+title: 博客
 background: '/img/bg-post.jpg'
 ---
 
@@ -35,12 +35,12 @@ background: '/img/bg-post.jpg'
 
   {% if paginator.previous_page %}
   <a class="btn btn-primary float-left" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr;
-    Newer<span class="d-none d-md-inline"> Posts</span></a>
+    上<span class="d-none d-md-inline"> 一页</span></a>
   {% endif %}
 
   {% if paginator.next_page %}
-  <a class="btn btn-primary float-right" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older<span
-      class="d-none d-md-inline"> Posts</span> &rarr;</a>
+  <a class="btn btn-primary float-right" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">下<span
+      class="d-none d-md-inline"> 一页</span> &rarr;</a>
   {% endif %}
 
 </div>
