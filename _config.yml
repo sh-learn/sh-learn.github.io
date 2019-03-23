@@ -13,7 +13,12 @@ zhihu_username: sh-learn
 weibo_username: 6854461296
 
 # Build settings
+highlighter: rouge
 markdown:          kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
 paginate:          5
 paginate_path:     "/posts/page:num/"
 plugins:
